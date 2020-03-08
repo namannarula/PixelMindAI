@@ -1,118 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159953126-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-159953126-1');
     </script>
-	<meta content="text/html; charset=utf-8" http-equiv="content-type"><!-- ========== Meta Tags ========== -->
-	<meta charset="UTF-8">
-	<meta content="ie=edge" http-equiv="X-UA-Compatible">
-	<meta content="HackintheWest, hackathon conducted by IIIT Kota" name="description">
-	<meta content="hack in the west, hackinthewest, iiit kota, hackathon" name="keywords">
-	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"><!-- ========== Title ========== -->
-	<title>Hack In The West</title><!-- ========== Favicon Ico ========== -->
-	<!-- <link rel="icon" href="fav.ico"> -->
-	<!-- <link rel="icon" href="assets/img/parallax.png"> -->
-	<!-- <link rel="apple-touch-icon" href="assets/img/parallax.png"> -->
-	<!-- ========== STYLESHEETS ========== -->
-	<!-- Bootstrap CSS -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet"><!-- Fonts Icon CSS -->
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-	<link href="assets/css/et-line.css" rel="stylesheet">
-	<link href="assets/css/ionicons.min.css" rel="stylesheet"><!-- Carousel CSS -->
-	<link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-	<link href="assets/css/owl.theme.default.min.css" rel="stylesheet"><!-- Animate CSS -->
-	<link href="assets/css/animate.min.css" rel="stylesheet"><!-- Custom styles for this template -->
-	<link href="https://unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
-	<link href="assets/css/main.css" rel="stylesheet">
-	<style>
-	       ::-webkit-scrollbar {
-	           width: 10px;
-	       }
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="HackintheWest, hackathon conducted by IIIT Kota" name="description">
+    <meta content="hack in the west, hackinthewest, iiit kota, hackathon" name="keywords">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <!-- ========== Title ========== -->
+    <title>Hack In The West</title><!-- ========== Favicon Ico ========== -->
+    <!-- <link rel="icon" href="fav.ico"> -->
+    <!-- <link rel="icon" href="assets/img/parallax.png"> -->
+    <!-- <link rel="apple-touch-icon" href="assets/img/parallax.png"> -->
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"><!-- Fonts Icon CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/et-line.css" rel="stylesheet">
+    <link href="assets/css/ionicons.min.css" rel="stylesheet"><!-- Carousel CSS -->
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet"><!-- Animate CSS -->
+    <link href="assets/css/animate.min.css" rel="stylesheet"><!-- Custom styles for this template -->
+    <link href="https://unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/favicon.png" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet"> -->
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
 
-	       /* Track */
-	       ::-webkit-scrollbar-track {
+        /* Track */
+        ::-webkit-scrollbar-track {
 
-	           box-shadow: inset 0 0 2px grey;
-	           border-radius: 10px;
-	       }
+            box-shadow: inset 0 0 2px grey;
+            border-radius: 10px;
+        }
 
-	       /* Handle */
-	       ::-webkit-scrollbar-thumb {
-	           box-shadow: inset 0 0 3px grey;
-	           background: #CC753F;
-	           border-radius: 10px;
-	       }
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            box-shadow: inset 0 0 3px grey;
+            background: #CC753F;
+            border-radius: 10px;
+        }
 
-	       /* Handle on hover */
-	       ::-webkit-scrollbar-thumb:hover {
-	           background: rgb(211, 112, 51);
-	       }
-	</style>
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(211, 112, 51);
+        }
+    </style>
 </head>
+
 <body>
-	<div class="loader">
-		<div class="loader-outter"></div>
-		<div class="loader-inner"></div>
-	</div><!--header start here -->
-	<header class="header navbar fixed-top navbar-expand-md">
-		<div class="container">
-			<!-- <a class="navbar-brand logo" href="#">
-            <img src="assets/img/tec.svg" alt="Parallax"/>
-        </a> -->
-			<button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#headernav" data-toggle="collapse" style="padding-top: 5px; margin-bottom: 15px;" type="button"><span class="lnr lnr-text-align-right"></span></button>
-			<div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
-				<ul class=" nav navbar-nav menu">
-					<li class="nav-item">
-						<a class="nav-link active" href="#about-hack">About</a>
-					</li><!-- <li class="nav-item">
+    <div class="loader">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+    </div>
+    <!--header start here -->
+    <header class="header navbar fixed-top navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                <img src="assets/img/favicon.png" alt="Hack-in-the-West" />
+            </a>
+            <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#headernav"
+                data-toggle="collapse" style="padding-top: 5px; margin-bottom: 15px;" type="button"><span
+                    class="lnr lnr-text-align-right"></span></button>
+            <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+                <ul class=" nav navbar-nav menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about-hack">About</a>
+                    </li>
+                    <!-- <li class="nav-item">
                         <a class="nav-link " href="components.html">Components</a>
                     </li> -->
-					<li class="nav-item">
-						<a class="nav-link" href="#prizes">Prizes</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#sponsors">Sponsors</a>
-					</li><!-- <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prizes">Prizes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sponsors">Sponsors</a>
+                    </li>
+                    <!-- <li class="nav-item">
                         <a class="nav-link "
                             href="#"
                             target="_blank">Brochure</a>
                     </li> -->
-					<!-- <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link " href="timeline1.html">TimeLine</a>
                     </li> -->
-					<li class="nav-item">
-						<a class="nav-link" href="#faq">FAQs</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact Us</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</header><!--header end here-->
-	<!--cover section slider -->
-	<section class="home-cover" id="home">
-		<div class="cover_slider owl-carousel owl-theme">
-			<div class="cover_item" style="background: url('assets/img/bg/front.jpeg');">
-				<div class="slider_content">
-					<div class="slider-content-inner">
-						<div class="container">
-							<div class="slider-content-center">
-								<!-- <img src="assets/img/parallax.png" width="300px" height="300px" style="margin-left: auto;margin-right: auto";> -->
-								<h1 style="margin-left: auto; margin-right: auto;">Hack in the West</h1>
-								<p class="cover-date">27-28 March 2020 - IIIT Kota</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!-- <div class="cover_item" style="background: url('assets/img/bg/front.jpeg');">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--header end here-->
+    <!--cover section slider -->
+    <section class="home-cover" id="home">
+        <div class="cover_slider owl-carousel owl-theme">
+            <div class="cover_item" style="background: url('assets/img/bg/front.jpeg');">
+                <div class="slider_content">
+                    <div class="slider-content-inner">
+                        <div class="container">
+                            <div class="slider-content-center">
+                                <!-- <img src="assets/img/parallax.png" width="300px" height="300px" style="margin-left: auto;margin-right: auto";> -->
+                                <h1 style="margin-left: auto; margin-right: auto;">Hack in the West</h1>
+                                <p class="cover-date">27-28 March 2020 - IIIT Kota</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="cover_item" style="background: url('assets/img/bg/front.jpeg');">
             <div class="slider_content">
                 <div class="slider-content-inner">
                     <div class="container">
@@ -150,14 +162,23 @@
                 </div>
             </div>
         </div> -->
-		</div>
-		<div class="cover_nav">
-			<div class="cover_dots" style="margin-left: 2em">
-				<button class="active" id="devfolio-apply-now" style="text-transform: none;padding-top: 7px;padding-bottom: 7px;padding-left: 16px;padding-right: 16px;"><svg class="logo" style="height:24px;width:24px;margin-right:8px" viewbox="0 0 115.46 123.46" xmlns="http://www.w3.org/2000/svg">
-				<path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z"></path>
-				<path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"></path></svg>Apply with Devfolio</button>
-			</div>
-		</div><!-- <div class="img-wrapper">
+        </div>
+        <div class="cover_nav">
+            <div class="cover_dots" style="margin-left: 2em">
+                <button class="active" id="devfolio-apply-now"
+                    style="text-transform: none;padding-top: 7px;padding-bottom: 7px;padding-left: 16px;padding-right: 16px;"><svg
+                        class="logo" style="height:24px;width:24px;margin-right:8px" viewbox="0 0 115.46 123.46"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z">
+                        </path>
+                        <path
+                            d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z">
+                        </path>
+                    </svg>Apply with Devfolio</button>
+            </div>
+        </div>
+        <!-- <div class="img-wrapper">
             <div class="row justify-content-center mt30">
                 <div data-aos="fade-up" class="card" style="width: 24rem;">
                     <img class="card-img-top" data-aos="zoom-in-left" src="assets/img/rob.png" alt="Card image cap">
@@ -169,67 +190,74 @@
             </div>
 
         </div> -->
-	</section><!--cover section slider end -->
-	<!--event info -->
-	<section class="locate_date">
-		<div class="container">
-			<div class="row justify-content-center pb-5">
-				<div class="col-6 col-md-2" data-aos="zoom-in-down">
-					<div class="icon_box_two">
-						<i class="ion-ios-calendar-outline"></i>
-						<div class="content">
-							<h5 class="box_title">DATE</h5>
-							<p>27-28th March 2020</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-6 col-md-2" data-aos="zoom-in-down">
-					<div class="icon_box_two">
-						<i class="ion-ios-location-outline"></i>
-						<div class="content">
-							<h5 class="box_title">Location</h5>
-							<p>MNIT Jaipur</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section><!--event info end -->
-	<!--event countdown -->
-	<section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/10008.png');">
-		<div class="overlay_dark"></div>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 col-md-10">
-					<h4 class="mb30 text-center color-light" style="font-weight: 700 !important;font-size: xx-large;">Counter until the big event</h4>
-					<div class="countdown" data-aos="fade-down" data-aos-duration="800" data-aos-easing="linear"></div>
-				</div>
-			</div>
+    </section>
+    <!--cover section slider end -->
+    <!--event info -->
+    <section class="locate_date">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-6 col-md-2" data-aos="zoom-in-down">
+                    <div class="icon_box_two">
+                        <i class="ion-ios-calendar-outline"></i>
+                        <div class="content">
+                            <h5 class="box_title">DATE</h5>
+                            <p>27-28th March 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2" data-aos="zoom-in-down">
+                    <div class="icon_box_two">
+                        <i class="ion-ios-location-outline"></i>
+                        <div class="content">
+                            <h5 class="box_title">Location</h5>
+                            <p>MNIT Jaipur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--event info end -->
+    <!--event countdown -->
+    <section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/10008.png');">
+        <div class="overlay_dark"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                    <h4 class="mb30 text-center color-light" style="font-weight: 700 !important;font-size: xx-large;">
+                        Counter until the big event</h4>
+                    <div class="countdown" data-aos="fade-down" data-aos-duration="800" data-aos-easing="linear"></div>
+                </div>
+            </div>
         </div>
         <h1 id="about-hack"></h1>
-	</section><!--event count down end-->
-	<!--about the event -->
-	<section class="pt100 pb100">
-		<div class="container" >
-			<div class="section_title">
-				<h3 class="title" data-aos="zoom-in-right">HACK IN THE WEST</h3>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-12 col-md-6" data-aos="zoom-in-right">
-					<p style="text-align: justify; text-justify: inter-word">Welcome to Hack in the West.<br>
-					A 30-hour hackathon where programmers, designers and inventors meet to code, design and build innovative and promising solutions to real world problems.<br>
-					This is a venue for self-expression and creativity through technology.</p>
-				</div>
-				<div class="col-12 col-md-6" data-aos="zoom-in-left">
-					<p style="text-align: justify; text-justify: inter-word"><br>
-					It doesn't matter if someone is still making their first app or their 100th one. There are a lot of things to learn. This is an opportunity for programmers to boost their technical skills and also their ability to think laterally.<br>
-					The only contraint is the time!</p><br>
-					<br>
-				</div>
-				<h4>This year let the hacking meet the culture...</h4>
-			</div><!-- <br><br><br> -->
-			<!--event features-->
-			<!-- <div class="section_title" id="tracks">
+    </section>
+    <!--event count down end-->
+    <!--about the event -->
+    <section class="pt100 pb100">
+        <div class="container">
+            <div class="section_title">
+                <h3 class="title" data-aos="zoom-in-right">HACK IN THE WEST</h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6" data-aos="zoom-in-right">
+                    <p style="text-align: justify; text-justify: inter-word">Welcome to Hack in the West.<br>
+                        A 30-hour hackathon where programmers, designers and inventors meet to code, design and build
+                        innovative and promising solutions to real world problems.<br>
+                        This is a venue for self-expression and creativity through technology.</p>
+                </div>
+                <div class="col-12 col-md-6" data-aos="zoom-in-left">
+                    <p style="text-align: justify; text-justify: inter-word"><br>
+                        It doesn't matter if someone is still making their first app or their 100th one. There are a lot
+                        of things to learn. This is an opportunity for programmers to boost their technical skills and
+                        also their ability to think laterally.<br>
+                        The only contraint is the time!</p><br>
+                    <br>
+                </div>
+                <h4>This year let the hacking meet the culture...</h4>
+            </div><!-- <br><br><br> -->
+            <!--event features-->
+            <!-- <div class="section_title" id="tracks">
                 <h3 class="title">
                     Tracks
                 </h3>
@@ -364,10 +392,11 @@
                     </div>
                 </div>
             </div> -->
-			<!--event features end-->
-		</div>
-	</section><!--about the event end -->
-	<!-- <div class="container" id="sponsors">
+            <!--event features end-->
+        </div>
+    </section>
+    <!--about the event end -->
+    <!-- <div class="container" id="sponsors">
         <div class="section_title mb30">
             <h3 class="title">
                 Sponsors Challenges
@@ -407,83 +436,92 @@
     </div> -->
     <!--speaker section-->
     <h1 id="prizes"></h1>
-	<div class="container">
-		<div class="section_title mb50">
-			<h3 class="title">Prizes</h3>
-		</div>
-	</div>
-	<div class="row justify-content-center mt30 pb100">
-		<!-- <div data-aos="fade-up" class="card" style="width: 18rem;">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">Prizes</h3>
+        </div>
+    </div>
+    <div class="row justify-content-center mt30 pb100">
+        <!-- <div data-aos="fade-up" class="card" style="width: 18rem;">
             <img class="card-img-top" data-aos="zoom-in-left" src="assets/img/Prizes1.png" alt="Card image cap">
             <div class="card-body">
                 <p data-aos="fade-right" class="card-text" style="text-align: center;"><a href="prizes.html"
                         class="btn btn-primary btn-rounded">View Exciting Prizes!</a></p>
             </div>
         </div> -->
-		<!-- <div> -->
-		<div class="col-12 col-md-6 col-lg-3" data-aos="fade-up">
-			<div class="icon_box_one">
-				<div class="content" style="text-align: center!important">
-					<img alt="1st" height="72" src="./assets/img/icons/first.svg">
-					<h4 class="pt-3">Rs. 10,000</h4>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-6 col-lg-3" data-aos="fade-up">
-			<div class="icon_box_one">
-				<div class="content" style="text-align: center!important">
-					<img alt="2nd" height="72" src="./assets/img/icons/second.svg">
-					<h4 class="pt-3">Rs. 8,000</h4>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-6 col-lg-3" data-aos="fade-up">
-			<div class="icon_box_one">
-				<div class="content" style="text-align: center!important">
-					<img alt="3rd" height="72" src="./assets/img/icons/third.svg">
-					<h4 class="pt-3">Rs. 6,000</h4>
-				</div>
-			</div>
-		</div><!-- </div> -->
-    </div><!--speaker section-->
+        <!-- <div> -->
+        <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up">
+            <div class="icon_box_one">
+                <div class="content" style="text-align: center!important">
+                    <img alt="1st" height="72" src="./assets/img/icons/first.svg">
+                    <h4 class="pt-3">Rs. 10,000</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up">
+            <div class="icon_box_one">
+                <div class="content" style="text-align: center!important">
+                    <img alt="2nd" height="72" src="./assets/img/icons/second.svg">
+                    <h4 class="pt-3">Rs. 8,000</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up">
+            <div class="icon_box_one">
+                <div class="content" style="text-align: center!important">
+                    <img alt="3rd" height="72" src="./assets/img/icons/third.svg">
+                    <h4 class="pt-3">Rs. 6,000</h4>
+                </div>
+            </div>
+        </div><!-- </div> -->
+    </div>
+    <!--speaker section-->
     <h1 id="sponsors"></h1>
-	<section class="pb100">
-		<div class="container">
-			<div class="section_title mb50">
-				<h3 class="title">Our Sponsors</h3>
-			</div>
-		</div>
-		<div class="container" style="padding-left: 60px;">
-			<div class="row justify-content-center no-gutters">
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" style="padding-right: 10px;padding-left: 10px">
-					<div class="speaker_box">
-						<div class="speaker_img" style="width: 200px">
-							<a href="https://studentpartners.microsoft.com/"><img alt="speaker name" src="assets/img/speakers/msp.png"></a>
-						</div>
-					</div>
+    <section class="pb100">
+        <div class="container">
+            <div class="section_title mb50">
+                <h3 class="title">Our Sponsors</h3>
+            </div>
+        </div>
+        <div class="container" style="padding-left: 60px;">
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up"
+                    style="padding-right: 10px;padding-left: 10px">
+                    <div class="speaker_box">
+                        <div class="speaker_img" style="width: 200px">
+                            <a href="https://studentpartners.microsoft.com/"><img alt="speaker name"
+                                    src="assets/img/speakers/msp.png"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" style="padding-right: 10px;padding-left: 10px">
-					<div class="speaker_box">
-						<div class="speaker_img" style="width: 200px">
-							<a href="https://github.com/"><img alt="speaker name" src="assets/img/speakers/s4.png"></a>
-						</div>
-					</div>
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up"
+                    style="padding-right: 10px;padding-left: 10px">
+                    <div class="speaker_box">
+                        <div class="speaker_img" style="width: 200px">
+                            <a href="https://github.com/"><img alt="speaker name" src="assets/img/speakers/s4.png"></a>
+                        </div>
+                    </div>
                 </div>
-				<div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" style="padding-right: 10px;padding-left: 10px">
-					<div class="speaker_box">
-						<div class="speaker_img" style="width: 200px">
-							<a href="https://www.jetbrains.com/"><img alt="speaker name" src="assets/img/speakers/jetbrains.png"></a>
-						</div>
-					</div>
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up"
+                    style="padding-right: 10px;padding-left: 10px">
+                    <div class="speaker_box">
+                        <div class="speaker_img" style="width: 200px">
+                            <a href="https://www.jetbrains.com/"><img alt="speaker name"
+                                    src="assets/img/speakers/jetbrains.png"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" style="padding-right: 10px;padding-left: 10px">
-					<div class="speaker_box">
-						<div class="speaker_img" style="width: 200px">
-							<a href="https://www.creative-tim.com/"><img alt="speaker name" src="assets/img/speakers/creative_tim.png"></a>
-						</div>
-					</div>
-				</div>
-			</div><!-- <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up"
+                    style="padding-right: 10px;padding-left: 10px">
+                    <div class="speaker_box">
+                        <div class="speaker_img" style="width: 200px">
+                            <a href="https://www.creative-tim.com/"><img alt="speaker name"
+                                    src="assets/img/speakers/creative_tim.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row justify-content-center no-gutters">
                 <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
                     style="padding-right: 10px;padding-left: 10px">
                     <div class="speaker_box">
@@ -774,139 +812,177 @@
                     </div>
                 </div>
             </div> -->
-		</div>
-	</section><!--speaker section end -->
-	<!--brands section -->
-	<section class="bg-gray pt100 pb100" id="faq">
-		<div class="container">
-			<div class="section_title mb50">
-				<h3 class="title" style="color: #CC753F;">Frequently asked questions</h3>
-				<div class="faq bg-gray">
-					<div class="accordion" style="margin-left: 2em">
-						<div class="row">
-							<div class="col-sm">
-								<ul>
-									<li>
-										<button class="accordion-control frequent\">Who can participate?</button>
-										<div class="accordion-panel">
-											As long as you are a student at any college and 18 years older, you are invited to apply for Hack-in-the-West.
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">When will the application close?</button>
-										<div class="accordion-panel">
-											The application process will close on 25th March.
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">How does the application process work?</button>
-										<div class="accordion-panel">
-											We’re looking for people who "do"! Folks who are passionate enough to work on crazy world-changing ideas. Think of real time industrial problem which can have a huge impact in everyone's daily life. Tell us how you plan to solve the problem. We’ll get to know more about your abilities from the past projects, GitHub profile, participation/awards in other hackathons.
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">How much does it cost?</button>
-										<div class="accordion-panel">
-											Zero. Zip. Zilch. Nada. Nothing. Admission to Hack-in-the-West is completely free, thanks to our sponsors! We'll provide you with a weekend's worth of schwag, drinks, snacks and a place to crash when you need a break from coding.
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">Can we participate as a team?</button>
-										<div class="accordion-panel">
-											Yes! This hackathon is strictly a team competition. We believe that you’re stronger as a team. The team size for Hack-in-the-West is 2-6 members per team. Most teams aim to have a mix of people with both design and developer skills.
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">What if I do not have a team?</button>
-										<div class="accordion-panel">
-											Not to worry, most people don’t! We’ll have team formation events geared towards helping you find people to work with.
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">I have never been to a Hackathon before. Should I participate?</button>
-										<div class="accordion-panel">
-											Definitely yes. We would be happy to host your first hackathon. Also there will be mentors from top tech company who will be present at the hackathon to guide you.
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">Will accommodation be provided to us?</button>
-										<div class="accordion-panel">
-											We can only accommodate you from 26st March, 16:00 pm to 29rd March, 13:00 pm at the venue.
-										</div>
-									</li>
-								</ul>
-							</div>
-							<div class="col-sm">
-								<ul>
-									<li>
-										<button class="accordion-control">Once I am selected what am I suppose to bring?</button>
-										<div class="accordion-panel">
-											A valid photo ID issue by your college, laptop, phone, chargers, spike guards, any stationery required, any sleeping equipment you might want.
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">Do you provide travel reimbursement?</button>
-										<div class="accordion-panel">
-											Unfortunately, no. We may start reimbursements from the next edition. Stay tuned!
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">How does judging work?</button>
-										<div class="accordion-panel">
-											A panel of some of the biggest names in tech will evaluate hacks based on creativity, technical difficulty, design, and usefulness. New judges will be announced on a rolling basis on Instagram, Facebook and Twitter, so make sure to follow us!
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">What do I get by attending Hack-in-the-West</button>
-										<div class="accordion-panel">
-											Pretty much everything, from socializing with fellow hacker community to internship/job offers from the coolest tech companies. And yeah we'll have prizes for finalist teams and many other sponsored prizes.
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">I am just a beginner and have no experience with these technologies but am interested. Should I participate?</button>
-										<div class="accordion-panel">
-											Definitely yes! This would be a great opportunity to explore and learn something new!
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">Whom do I contact for more information?</button>
-										<div class="accordion-panel">
-											Feel free to reach out at <a href="mailto:contact@hackinthewest.in" style="color: #CC753F">contact@hackinthewest.in</a>for any doubts, queries or help.
-										</div>
-									</li>
-									<li>
-										<button class="accordion-control">Is there any provision for partial selection of members of a team?</button>
-										<div class="accordion-panel">
-											No, there is no such provision.
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section><!--brands section end-->
-	<section class="bg-img" style="background-image: url('assets/img/bg/rajasthan-4.jpg'); padding-top: 200px; padding-bottom: 200px;">
-		<div class="container">
-			<div class="col-sm-6 text-center" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
-				<a class="btn btn-primary btn-rounded mt30" href="https://devfolio.co/code-of-conduct">Code Of Conduct</a>
-			</div>
-		</div>
-    </section><!--footer start -->
-	<footer id="contact" style=" padding-bottom: 10px;background-color: #CC6B1Aaa;">
-		<center>
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-4 col-12" id="social">
-						<div class="footer_box">
-							<div class="footer_header">
-								<h3 class="title" style="color:#ffffff">Catch us on Instagram</h3>
-							</div>
-							<div class="footer_box_body">
-								<ul class="footer_social">
-									<!-- <li>
+        </div>
+    </section>
+    <!--speaker section end -->
+    <!--brands section -->
+    <section class="bg-gray pt100 pb100" id="faq">
+        <div class="container">
+            <div class="section_title mb50">
+                <h3 class="title" style="color: #CC753F;">Frequently asked questions</h3>
+                <div class="faq bg-gray">
+                    <div class="accordion" style="margin-left: 2em">
+                        <div class="row">
+                            <div class="col-sm">
+                                <ul>
+                                    <li>
+                                        <button class="accordion-control frequent\">Who can participate?</button>
+                                        <div class="accordion-panel">
+                                            As long as you are a student at any college and 18 years older, you are
+                                            invited to apply for Hack-in-the-West.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">When will the application close?</button>
+                                        <div class="accordion-panel">
+                                            The application process will close on 25th March.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">How does the application process
+                                            work?</button>
+                                        <div class="accordion-panel">
+                                            We’re looking for people who "do"! Folks who are passionate enough to work
+                                            on crazy world-changing ideas. Think of real time industrial problem which
+                                            can have a huge impact in everyone's daily life. Tell us how you plan to
+                                            solve the problem. We’ll get to know more about your abilities from the past
+                                            projects, GitHub profile, participation/awards in other hackathons.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">How much does it cost?</button>
+                                        <div class="accordion-panel">
+                                            Zero. Zip. Zilch. Nada. Nothing. Admission to Hack-in-the-West is completely
+                                            free, thanks to our sponsors! We'll provide you with a weekend's worth of
+                                            schwag, drinks, snacks and a place to crash when you need a break from
+                                            coding.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">Can we participate as a team?</button>
+                                        <div class="accordion-panel">
+                                            Yes! This hackathon is strictly a team competition. We believe that you’re
+                                            stronger as a team. The team size for Hack-in-the-West is 2-6 members per
+                                            team. Most teams aim to have a mix of people with both design and developer
+                                            skills.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">What if I do not have a team?</button>
+                                        <div class="accordion-panel">
+                                            Not to worry, most people don’t! We’ll have team formation events geared
+                                            towards helping you find people to work with.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">I have never been to a Hackathon before.
+                                            Should I participate?</button>
+                                        <div class="accordion-panel">
+                                            Definitely yes. We would be happy to host your first hackathon. Also there
+                                            will be mentors from top tech company who will be present at the hackathon
+                                            to guide you.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">Will accommodation be provided to us?</button>
+                                        <div class="accordion-panel">
+                                            We can only accommodate you from 26st March, 16:00 pm to 29rd March, 13:00
+                                            pm at the venue.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm">
+                                <ul>
+                                    <li>
+                                        <button class="accordion-control">Once I am selected what am I suppose to
+                                            bring?</button>
+                                        <div class="accordion-panel">
+                                            A valid photo ID issue by your college, laptop, phone, chargers, spike
+                                            guards, any stationery required, any sleeping equipment you might want.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">Do you provide travel reimbursement?</button>
+                                        <div class="accordion-panel">
+                                            Unfortunately, no. We may start reimbursements from the next edition. Stay
+                                            tuned!
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">How does judging work?</button>
+                                        <div class="accordion-panel">
+                                            A panel of some of the biggest names in tech will evaluate hacks based on
+                                            creativity, technical difficulty, design, and usefulness. New judges will be
+                                            announced on a rolling basis on Instagram, Facebook and Twitter, so make
+                                            sure to follow us!
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">What do I get by attending
+                                            Hack-in-the-West</button>
+                                        <div class="accordion-panel">
+                                            Pretty much everything, from socializing with fellow hacker community to
+                                            internship/job offers from the coolest tech companies. And yeah we'll have
+                                            prizes for finalist teams and many other sponsored prizes.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">I am just a beginner and have no experience
+                                            with these technologies but am interested. Should I participate?</button>
+                                        <div class="accordion-panel">
+                                            Definitely yes! This would be a great opportunity to explore and learn
+                                            something new!
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">Whom do I contact for more
+                                            information?</button>
+                                        <div class="accordion-panel">
+                                            Feel free to reach out at <a href="mailto:contact@hackinthewest.in"
+                                                style="color: #CC753F">contact@hackinthewest.in</a>for any doubts,
+                                            queries or help.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="accordion-control">Is there any provision for partial selection
+                                            of members of a team?</button>
+                                        <div class="accordion-panel">
+                                            No, there is no such provision.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--brands section end-->
+    <section class="bg-img"
+        style="background-image: url('assets/img/bg/rajasthan-4.jpg'); padding-top: 200px; padding-bottom: 200px;">
+        <div class="container">
+            <div class="col-sm-6 text-center"
+                style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
+                <a class="btn btn-primary btn-rounded mt30" href="https://devfolio.co/code-of-conduct">Code Of
+                    Conduct</a>
+            </div>
+        </div>
+    </section>
+    <!--footer start -->
+    <footer id="contact" style=" padding-bottom: 10px;background-color: #CC6B1Aaa;">
+        <center>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-12" id="social">
+                        <div class="footer_box">
+                            <div class="footer_header">
+                                <h3 class="title" style="color:#ffffff">Catch us on Instagram</h3>
+                            </div>
+                            <div class="footer_box_body">
+                                <ul class="footer_social">
+                                    <!-- <li>
                                         <a href="https://www.linkedin.com/company/the-electronics-club-vit/"
                                         target="_blank"><i class="ion-social-linkedin"></i></a>
                                     </li>
@@ -914,115 +990,127 @@
                                         <a href="https://www.facebook.com/tec.vit/" target="_blank"><i
                                             class="ion-social-facebook"></i></a>
                                         </li> -->
-									<li>
-										<a href="https://www.instagram.com/hackinthewest/" target="_blank"><i class="ion-social-instagram"></i></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-4 col-12" id="social">
-						<div class="footer_box">
-							<div class="footer_header">
-								<h3 class="title" style="color:#ffffff">Contact us at</h3><a href="mailto:%20contact@hackinthewest.in" style="color: #f0f2f6;font-size:1.3em">contact@hackinthewest.in</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</center>
-	</footer>
-	<div class="copyright_footer">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-12 mt-3">
-					<div class="footer_menu" style="left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%)">
-						Created with ❤ by <a href="https://www.linkedin.com/in/divyanshsingh001/" target="_blank" style="color: #CC753F">Divyansh</a> and <a href="https://www.linkedin.com/in/omkarvd/" target="_blank" style="color: #CC753F">Omkar</a>
+                                    <li>
+                                        <a href="https://www.instagram.com/hackinthewest/" target="_blank"><i
+                                                class="ion-social-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-				</div>
-			</div>
-		</div>
-	</div><!--footer end -->
-	<script>
-	       var coll = document.getElementsByClassName("collapsible");
-	       var i;
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-12" id="social">
+                        <div class="footer_box">
+                            <div class="footer_header">
+                                <h3 class="title" style="color:#ffffff">Contact us at</h3><a
+                                    href="mailto:%20contact@hackinthewest.in"
+                                    style="color: #f0f2f6;font-size:1.3em">contact@hackinthewest.in</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </footer>
+    <div class="copyright_footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 mt-3">
+                    <div class="footer_menu"
+                        style="left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%)">
+                        Created with ❤ by <a href="https://www.linkedin.com/in/divyanshsingh001/" target="_blank"
+                            style="color: #CC753F">Divyansh</a> and <a href="https://www.linkedin.com/in/omkarvd/"
+                            target="_blank" style="color: #CC753F">Omkar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer end -->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
 
-	       for (i = 0; i < coll.length; i++) {
-	           coll[i].addEventListener("click", function () {
-	               this.classList.toggle("active");
-	               var content = this.nextElementSibling;
-	               if (content.style.display === "block") {
-	                   content.style.display = "none";
-	               } else {
-	                   content.style.display = "block";
-	               }
-	           });
-	       }
-	</script> <!-- jquery -->
-	 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
-	</script> 
-	<script src="assets/js/jquery.min.js">
-	</script> <!-- bootstrap -->
-	 
-	<script src="assets/js/popper.js">
-	</script> 
-	<script src="assets/js/bootstrap.min.js">
-	</script> 
-	<script src="assets/js/waypoints.min.js">
-	</script> <!--slick carousel -->
-	 
-	<script src="assets/js/owl.carousel.min.js">
-	</script> <!--parallax -->
-	 
-	<script src="assets/js/parallax.min.js">
-	</script> <!--Counter up -->
-	 
-	<script src="assets/js/jquery.counterup.min.js">
-	</script> <!--Counter down -->
-	 
-	<script src="assets/js/jquery.countdown.min.js">
-	</script> <!-- WOW JS -->
-	 
-	<script src="assets/js/wow.min.js">
-	</script> <!-- Custom js -->
-	 
-	<script src="assets/js/main.js">
-	</script> <!-- Compiled and minified JavaScript -->
-	 
-	<script type="text/javascript">
-	       document.addEventListener('DOMContentLoaded', function () {
-	           let devfolioOptions = {
-	               buttonSelector: '#devfolio-apply-now',
-	               key: 'Parallax',
-	           }
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script> <!-- jquery -->
 
-	           let script = document.createElement('script');
-	           script.src = "https://apply.devfolio.co/";
-	           document.head.append(script);
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script src="assets/js/jquery.min.js">
+    </script> <!-- bootstrap -->
 
-	           script.onload = function () {
-	               new Devfolio(devfolioOptions);
-	           }
+    <script src="assets/js/popper.js">
+    </script>
+    <script src="assets/js/bootstrap.min.js">
+    </script>
+    <script src="assets/js/waypoints.min.js">
+    </script>
+    <!--slick carousel -->
 
-	           script.onerror = function () {
-	               document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-	                   window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-	               });
-	           }
-	       });
-	</script> 
-	<script src="https://unpkg.com/aos%402.3.1/dist/aos.js">
-	</script> 
-	<script>
-	       AOS.init({
-	           easing: 'ease-out-back',
-	           duration: 2000
-	       });
-	</script>
+    <script src="assets/js/owl.carousel.min.js">
+    </script>
+    <!--parallax -->
+
+    <script src="assets/js/parallax.min.js">
+    </script>
+    <!--Counter up -->
+
+    <script src="assets/js/jquery.counterup.min.js">
+    </script>
+    <!--Counter down -->
+
+    <script src="assets/js/jquery.countdown.min.js">
+    </script> <!-- WOW JS -->
+
+    <script src="assets/js/wow.min.js">
+    </script> <!-- Custom js -->
+
+    <script src="assets/js/main.js">
+    </script> <!-- Compiled and minified JavaScript -->
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            let devfolioOptions = {
+                buttonSelector: '#devfolio-apply-now',
+                key: 'Parallax',
+            }
+
+            let script = document.createElement('script');
+            script.src = "https://apply.devfolio.co/";
+            document.head.append(script);
+
+            script.onload = function () {
+                new Devfolio(devfolioOptions);
+            }
+
+            script.onerror = function () {
+                document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+                    window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+                });
+            }
+        });
+    </script>
+    <script src="https://unpkg.com/aos%402.3.1/dist/aos.js">
+    </script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 2000
+        });
+    </script>
 </body>
+
 </html>
