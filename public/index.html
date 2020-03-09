@@ -3,37 +3,41 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159953126-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159953126-1">
+    </script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-159953126-1');
     </script>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><!-- ========== Meta Tags ========== -->
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <meta content="HackintheWest, hackathon conducted by IIIT Kota" name="description">
     <meta content="hack in the west, hackinthewest, iiit kota, hackathon" name="keywords">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <!-- ========== Title ========== -->
-    <title>Hack In The West</title><!-- ========== Favicon Ico ========== -->
-    <!-- <link rel="icon" href="fav.ico"> -->
-    <!-- <link rel="icon" href="assets/img/parallax.png"> -->
-    <!-- <link rel="apple-touch-icon" href="assets/img/parallax.png"> -->
+    <title>Hack in the West</title>
+    <!-- ========== Favicon Ico ========== -->
+    <link rel="icon" href="assets/img/fevicon.png">
     <!-- ========== STYLESHEETS ========== -->
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet"><!-- Fonts Icon CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/et-line.css" rel="stylesheet">
-    <link href="assets/css/ionicons.min.css" rel="stylesheet"><!-- Carousel CSS -->
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <!-- Carousel CSS -->
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet"><!-- Animate CSS -->
-    <link href="assets/css/animate.min.css" rel="stylesheet"><!-- Custom styles for this template -->
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
     <link href="https://unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="assets/img/fevicon.png" />
+    <link href="assets/css/main.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
     <style>
         ::-webkit-scrollbar {
@@ -42,7 +46,6 @@
 
         /* Track */
         ::-webkit-scrollbar-track {
-
             box-shadow: inset 0 0 2px grey;
             border-radius: 10px;
         }
@@ -69,10 +72,8 @@
     <!--header start here -->
     <header class="header navbar fixed-top navbar-expand-md">
         <div class="container">
-            <a class="navbar-brand logo" href="#">
-                <img src="assets/img/logo.png" alt="Hack-in-the-West" />
-            </a>
-            <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#headernav"
+            <a class="navbar-brand logo" href="#"><img alt="Hack-in-the-West" src="assets/img/logo.png"></a> <button
+                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#headernav"
                 data-toggle="collapse" style="padding-top: 5px; margin-bottom: 15px;" type="button"><span
                     class="lnr lnr-text-align-right"></span></button>
             <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
@@ -163,7 +164,19 @@
             </div>
         </div> -->
         </div>
-        <div class="cover_nav">
+        <diV class="cover_nav">
+            <div class="cover_dots">
+                <button id="devfolio-apply-now" class="pb-2 pt-2"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"
+                    viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px">
+                    <path
+                        d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" />
+                    <path
+                        d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z" />
+                    </svg>Apply with Devfolio
+                </button>
+            </div>
+        </diV>
+        <!-- <div class="cover_nav">
             <div class="cover_dots" style="margin-left: 2em">
                 <button class="active" id="devfolio-apply-now"
                     style="text-transform: none;padding-top: 7px;padding-bottom: 7px;padding-left: 16px;padding-right: 16px;"><svg
@@ -177,7 +190,7 @@
                         </path>
                     </svg>Apply with Devfolio</button>
             </div>
-        </div>
+        </div> -->
         <!-- <div class="img-wrapper">
             <div class="row justify-content-center mt30">
                 <div data-aos="fade-up" class="card" style="width: 24rem;">
@@ -255,7 +268,8 @@
                     <br>
                 </div>
                 <h4>This year let the hacking meet the culture...</h4>
-            </div><!-- <br><br><br> -->
+            </div>
+            <!-- <br><br><br> -->
             <!--event features-->
             <!-- <div class="section_title" id="tracks">
                 <h3 class="title">
@@ -473,7 +487,8 @@
                     <h4 class="pt-3">Rs. 6,000</h4>
                 </div>
             </div>
-        </div><!-- </div> -->
+        </div>
+        <!-- </div> -->
     </div>
     <!--speaker section-->
     <h1 id="sponsors"></h1>
@@ -1021,9 +1036,9 @@
                 <div class="col-12 mt-3">
                     <div class="footer_menu"
                         style="left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%)">
-                        Created with ❤ by <a href="https://www.linkedin.com/in/divyanshsingh001/" target="_blank"
-                            style="color: #CC753F">Divyansh</a> and <a href="https://www.linkedin.com/in/omkarvd/"
-                            target="_blank" style="color: #CC753F">Omkar</a>
+                        Created with ❤ by <a href="https://www.linkedin.com/in/divyanshsingh001/" style="color: #CC753F"
+                            target="_blank">Divyansh</a> and <a href="https://www.linkedin.com/in/omkarvd/"
+                            style="color: #CC753F" target="_blank">Omkar</a>
                     </div>
                 </div>
             </div>
@@ -1033,7 +1048,6 @@
     <script>
         var coll = document.getElementsByClassName("collapsible");
         var i;
-
         for (i = 0; i < coll.length; i++) {
             coll[i].addEventListener("click", function () {
                 this.classList.toggle("active");
@@ -1045,13 +1059,13 @@
                 }
             });
         }
-    </script> <!-- jquery -->
-
+    </script>
+    <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
     </script>
     <script src="assets/js/jquery.min.js">
-    </script> <!-- bootstrap -->
-
+    </script>
+    <!-- bootstrap -->
     <script src="assets/js/popper.js">
     </script>
     <script src="assets/js/bootstrap.min.js">
@@ -1059,50 +1073,24 @@
     <script src="assets/js/waypoints.min.js">
     </script>
     <!--slick carousel -->
-
     <script src="assets/js/owl.carousel.min.js">
     </script>
     <!--parallax -->
-
     <script src="assets/js/parallax.min.js">
     </script>
     <!--Counter up -->
-
     <script src="assets/js/jquery.counterup.min.js">
     </script>
     <!--Counter down -->
-
     <script src="assets/js/jquery.countdown.min.js">
-    </script> <!-- WOW JS -->
-
-    <script src="assets/js/wow.min.js">
-    </script> <!-- Custom js -->
-
-    <script src="assets/js/main.js">
-    </script> <!-- Compiled and minified JavaScript -->
-
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function () {
-            let devfolioOptions = {
-                buttonSelector: '#devfolio-apply-now',
-                key: 'Parallax',
-            }
-
-            let script = document.createElement('script');
-            script.src = "https://apply.devfolio.co/";
-            document.head.append(script);
-
-            script.onload = function () {
-                new Devfolio(devfolioOptions);
-            }
-
-            script.onerror = function () {
-                document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-                    window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-                });
-            }
-        });
     </script>
+    <!-- WOW JS -->
+    <script src="assets/js/wow.min.js">
+    </script>
+    <!-- Custom js -->
+    <script src="assets/js/main.min.js">
+    </script>
+    <!-- Compiled and minified JavaScript -->
     <script src="https://unpkg.com/aos%402.3.1/dist/aos.js">
     </script>
     <script>
