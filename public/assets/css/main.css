@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900");
 /* ----------------Text Fonts ------------------- */
 
-html {
+html, body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -1692,7 +1692,7 @@ header .logo img {
 
 header ul.menu li a.nav-link {
   padding: 20px 12px !important;
-  font-size: 1rem;
+  font-size: 1.4rem;
   letter-spacing: 1px;
   font-weight: 400;
   display: block;
@@ -1813,7 +1813,7 @@ footer {
 
 footer .footer_box {
   position: relative;
-  margin-top: 50px;
+  margin-top: 2rem;
 }
 
 footer .footer_box h4.footer_title {
@@ -1871,7 +1871,6 @@ footer ul.instagram_list {
 }
 
 footer ul.instagram_list li {
-  display: inline-block;
   width: 30%;
   margin: 0 0 2% 2%;
   float: left;
@@ -2129,7 +2128,7 @@ Cover
 }
 
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
-  font-size: 18px;
+  font-size: 1.5rem;
   color: #ffffff;
   margin-bottom: 25px;
   text-transform: uppercase;
@@ -2208,6 +2207,7 @@ Cover
   background: rgba(255, 255, 255, 0.5);
   display: block;
   -webkit-backface-visibility: visible;
+  backface-visibility: visible;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -2442,7 +2442,6 @@ Cover
   padding: 0 15px;
   font-size: 72px;
   color: #cc753f;
-  vertical-align: middle;
   border-radius: 4px;
   display: block;
   margin-bottom: 15px;
@@ -3454,9 +3453,6 @@ textarea.form-control {
 
 #devfolio-apply-now:hover {
   background-color: #2954bf !important;
-}
-
-.locate_date {
 }
 
 .faq {
