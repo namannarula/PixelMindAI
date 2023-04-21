@@ -489,6 +489,12 @@ img {
 .bg-gray {
   background-color: #f0f2f6 !important;
 }
+.bg-pblue {
+  background-color: #0c2d66 !important;
+}
+.bg-pdark {
+  background-color: #0B0044 !important;
+}
 
 .bg-black {
   background-color: #18181c !important;
@@ -3499,8 +3505,8 @@ textarea.form-control {
   outline: none;
   cursor: pointer;
   background-color: #9a9a9a;
-  color: #cc753f;
-  background-color: #101010;
+  color: #d9bc63;
+  background-color: #0B0044;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-bottom: 10px;
@@ -3521,7 +3527,7 @@ textarea.form-control {
 
 button:focus {
   outline: none;
-  background-color: #101010;
+  background-color: #0B0044;
 }
 
 /* .accordion-control.open::before { 
